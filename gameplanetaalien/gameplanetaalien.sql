@@ -48,8 +48,8 @@ values ('Vinicius','vinicius_senai','viniciussenai@gmail.com','70695430');
 
 delete from usuario where id=3;
 
-insert into   usuario(id,nome, apelido, email,senha)
-values (3,'Vitoria', 'vitoria_senai','vitoriasenai@gmail.com','87654321');
+insert into   usuario(nome, apelido, email,senha)
+values ('Renata', 'renata_senai','renatasenai@gmail.com','87654321');
 
 truncate table usuario;/* zera a ordem */
 
